@@ -1,0 +1,23 @@
+- name: url not defined
+
+- name: sample index up with port number (funny Sopranos video)
+  url: https://www.youtube.com/watch?v=9IS-GZ4q340:443/
+  headers:
+    content-type: application/json
+
+- name: sample index up with port number (cool cats site)
+  url: https://http.cat:443
+
+- name: testing POST (1)
+  body: '{"key": "value"}'
+  url: https://httpbin.org/
+  method: POST
+  headers:
+    content-type: application/json
+
+- name: testing POST (2)
+  body: '{"key": "value"}'
+  url: https://httpbun.org/
+  method: POST
+  headers:
+    content-type: application/json
