@@ -1,4 +1,4 @@
-# URL Health-Check
+# URL Health-Checker
 
 This program takes a YAML file, checks the health of an endpoint listed in it using a Python script and outputs **unavailable** endpoints.
 
